@@ -12,7 +12,7 @@ package recursive_mergesort;
 //imports...
 import java.util.ArrayList;
 import java.util.Scanner;
- import java.io.*;
+import java.io.*;
 
 public class RecursiveMergeSort {
 
