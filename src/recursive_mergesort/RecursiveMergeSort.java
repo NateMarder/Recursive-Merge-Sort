@@ -5,7 +5,6 @@
  * from a text file. The application determines the name of the text file from
  * the input provided by the customer through the keyboard.  The values are
  * sorted using a recursive merge-sort algorithm.
- *
  */
 
 package recursive_mergesort;
@@ -15,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
  import java.io.*;
 
-public class MarderNathan3 {
+public class RecursiveMergeSort {
 
     public static void main(String[] args) throws IOException {
         ArrayList<Double> all = new ArrayList();
@@ -87,7 +86,7 @@ public class MarderNathan3 {
         mergeSort(values, scratch, min, max);
     }
     
-    //recursive method is here...
+    //recursive method is here pseudo-code was from discrete math book
     static void mergeSort(double[] values, double[] scratch, int min, int max) {
         //base-case min==max
         int lhsMax = (min + max) / 2;
